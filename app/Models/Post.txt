@@ -1,0 +1,9 @@
+Contoh MASS assignment tanpa perlu menggunakan post->new Post
+
+Post::Create([
+    'tittle' => 'Judul Ketiga',
+    'category_id' => 2,
+    'slug' => 'judul-ketiga',
+    'excerpt' => 'Lorem Ipsum Ketiga',
+    'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam obcaecati iure quo, inventore accusantium consequatur dicta exercitationem mollitia recusandae illo? Repudiandae odio, ipsa nobis consectetur fugit exercitationem vero perspiciatis vel!'
+]);
